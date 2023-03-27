@@ -96,7 +96,7 @@ const {handleCheckChange, handleChange, handleSubmit, input, errorInput, dietas,
         {(!Object.entries(errorInput).length) ?
       
   <button className={style.button2} type='submit' >Crear nueva receta</button>
- : ( <div><button className={style.button2} type='submit'   disabled>Crear nueva receta</button>
+ : ( <div><button className={style.button2} type='submit' >Crear nueva receta</button>
   <p >Completa todos los campos para crear tu nueva receta</p></div>)
             }
       </form>

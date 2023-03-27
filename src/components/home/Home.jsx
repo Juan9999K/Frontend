@@ -17,7 +17,7 @@ export const Home = (props) => {
         <div className={styles.sidebarColumn}>
           <Sidebar />
         </div>
-        <CrearReceta />
+        {/* <CrearReceta /> */}
 
         <div className={styles.recetasColumn}>
           <Recetas />
