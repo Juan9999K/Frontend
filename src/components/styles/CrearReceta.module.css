@@ -1,0 +1,51 @@
+.alrededor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .input,
+  .textaerea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .input:focus,
+  .textaerea:focus {
+    outline: none;
+    border-color: #3366ff;
+  }
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .name {
+    font-size: 1rem;
+  }
+  .button2 {
+    background-color: #3366ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .button2[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+          
+  
