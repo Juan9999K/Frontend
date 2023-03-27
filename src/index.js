@@ -7,8 +7,8 @@ import {BrowserRouter} from "react-router-dom"
 import {Provider} from "react-redux"
 import store from "./redux/store.js"
 import axios from "axios"
-//axios.defaults.baseURL="http://localhost:3001"//solo se utiliza en el servidor local
-axios.defaults.baseURL="https://food-api-production.up.railway.app"//para el DEPLOY
+// axios.defaults.baseURL="http://localhost:3001"//solo se utiliza en el servidor local
+ axios.defaults.baseURL="https://food-api-production.up.railway.app"//para el DEPLOY
 
 
 ReactDOM.render(

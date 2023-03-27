@@ -13,7 +13,7 @@ import axios from "axios";
 import { Sidebar } from './components/sidebar/Sidebar';
 
 // axios.defaults.baseURL = "https://pi-food-production-3adc.up.railway.app/"
-axios.defaults.baseURL = "http://localhost:3001/"
+// axios.defaults.baseURL = "http://localhost:3001/"
 function App() {
   const location = useLocation()
   return (
